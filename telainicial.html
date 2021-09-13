@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>NOVO NISSAN Z</title>
+        <link rel="stylesheet" href="stylecar.css"
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">UM COMEÇO DE UMA NOVA ERA...</h1>
+        </header>
+        <img src="nissan_logo.png" class="nissan">
+        <header>
+        <button class="button" type="button" onclick="clicado()">NOSTALGIA</button>
+        </header>
+        <audio src="nfs.mp3"></audio>
+        <header>
+            <h1 class="titulo2">NOVO NISSAN Z, A NOVA GERAÇÃO DOS 350Z E 370Z.</h1>
+        </header>
+        <script>
+            const button = document.querySelector('button')
+    button.addEventListener('click', function clicado(){
+        const audio = document.querySelector('audio')
+        audio.play()
+    }) 
+        </script>
+
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
